@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #cccccc;;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    border-bottom: 1px grey solid;
+    background-color: black;
+    font-weight: bold;
+}
+
+.naven{
+    border-right: 1px rgb(210, 209, 209) solid;
+    padding: 1rem;
+    text-decoration: 0; 
+    color: white;  
+    font-size: larger;
+}
+
+.sida{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+div{
+    margin-bottom: 2rem;
+}
+
+a{
+    color: black;
+    text-decoration: 0;
+}
+
+a:last-child{
+    border: 0;
+}
+    
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.info{
+    box-sizing: border-box;
+    display: flex;
+    border: red solid;
+    justify-content: center;
+    
+}
+
+.titel{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin-left: 1rem;
+}
+
+
+footer{
+    display: flex;
+    flex-flow: column;
+
+}
+
+p{
+    padding: 1rem;
+}
+
+.fot{
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    font-size: medium;
+
+    padding: 1rem;
+
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+
+}
+
+form{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ok{
+    margin-left: 4rem;
+}
+
+ul{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-row: 33% 33% 33%;
+    margin-left: 1rem;
+
+}
+.p1{
+    grid-row: 1 /3;
+    grid-column: 1 /4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+.fet{
+    font-weight: bold;
+    margin-right: 0.3rem;
+}
+
+.reviews{
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    margin-bottom: 5rem;
+    
+}
+.quote{
+    margin-right: 2rem;
+}
+
+
+
